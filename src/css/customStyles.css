@@ -1,0 +1,139 @@
+
+.ml-4{
+    margin-left: 1.5rem !important;
+}
+
+.ml-3{
+    margin-left: 1.2rem !important;
+}
+
+.ml-2{
+    margin-left: 1.0rem !important;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mr-auto
+{
+    margin-right: auto;
+}
+.mx-auto
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-1{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+.px-1{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+.px-auto{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.catalog-image{
+    max-height: 280px; 
+    max-width: 350px; 
+    object-fit: cover;
+}
+
+.border-solid{
+    border-style: solid;
+}
+.borderw-3{
+    border-width: 3px;
+}
+.borderw-1{
+    border-width: 1px;
+}
+
+.border-bottom-1{
+    border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.btn-white{
+    margin-top: -2px;
+    color: #a8a8a8;
+    font-size: 1.2em;
+}
+
+.btn-white:hover{
+    color: #f0ff23;
+    transition: 0.5s;
+}
+
+.changeImage{
+    font-size: 10em;
+    color: rgba(255, 255, 255, 0);
+    transition: 0.3s;
+}
+
+.changeImage:hover{
+     color: rgb(89, 89, 89);
+     transition: 0.3s;
+}
+
+.card{
+    margin-top: 0px;
+    transition: 0.5s;
+}
+.card:hover{
+    margin-top: -6px;
+    transition: 0.5s;
+}
+
+.modal{
+    visibility: visible;
+    display: block;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 1%;
+    width: 50vw;
+    height: auto;
+}
+
+.close-button {
+    color: #3c763d;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+    .close-button:focus {
+    color: #155724;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttons
+{
+  align-self: center;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+.em-2{
+    font-size: 2em;
+}
